@@ -1,6 +1,5 @@
 <?php
 
-$con = new mysqli('localhost:3307','root','','ecom_store') or die("not 
-connected");
+$con = mysqli_connect('localhost:3307','root','','ecom_store');
 
 ?>
